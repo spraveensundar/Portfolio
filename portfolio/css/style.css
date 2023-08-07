@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Lato:ital@1&family=Roboto:wght@500&family=Ubuntu:ital,wght@1,300&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family:sans-serif;
+}
+
+body{
+	
+	background-color:#022a30;
+}
+
+.navbar{
+	
+	background: rgb(15,120,50);
+    background: linear-gradient(90deg, rgba(15,120,50,1) 47%, rgba(82,162,52,1) 100%);
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+img{
+	
+	width: 100%;
+}
+
+.navbar a{
+	text-decoration: none;
+	color: #ddd;
+}
+
+.navbar a:hover{
+		
+	color: #c6ee22 !important;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active{
+	
+	color: #c6ee22;
+}
+
+
+.full-height{
+
+	display:flex;
+	width: 100%;
+	min-height: 100vh;
+	flex-direction: column;
+	justify-content: center;
+	color: #fff;
+	padding-top:30px;
+	
+}
+
+#home h1{
+	
+	font-weight: bold;
+	font-size: 3em;
+}
+
+.btn{
+	
+	background-color: #c6ee22;
+	color:  #0d4438;
+	font-size:1em;
+	font-weight:600;
+}
+
+
+.link{
+	
+	color: #fff;
+	text-decoration: none;
+	position: relative;
+	transition: 0.5;
+}
+
+.link::after{
+    
+	content: "";
+	position: absolute;
+	width:0;
+	height: 3px;
+	background-color: #c6ee22;
+	left: 0;
+	top:20px;
+	transition:all 0.5s;
+}
+.link:hover{
+	color: #c6ee22;;
+}
+
+.link:hover::after{
+	
+	width: 100%;
+}
+
+
+#services .container .row .card{
+	
+	background-color: #033f47;
+	border-radius:10px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+#services .container .row .card span{
+	
+	background-color: #c6ee22;
+	border-radius:20px;
+	width: 80px;
+	margin:15px;
+}
+
+#services .container .row .card span i{
+	
+	font-size: 2em;
+	color:#033f47;
+}
+
+#services .container .row .card p{
+	
+	color:teal;
+}
+
+
+#services .container .row .card a{
+	
+	color: #fff;
+	text-decoration: none;
+	position: relative;
+	cursor: pointer;
+	transition: 0.5;
+}
+
+
+#services .container .row .card a::after{
+    
+	content: "";
+	position: absolute;
+	width:0;
+	height: 3px;
+	background-color: #c6ee22;
+	left: 0;
+	top:20px;
+	transition:all 0.5s;
+}
+
+#services .container .row .card a:hover{
+	color: #c6ee22;;
+}
+
+#services .container .row p{
+	
+	color: #c6ee22;
+	
+}
+
+#services .container .row .card a:hover::after{
+	
+	width: 100%;
+}
+
+#services .container .row .card:hover{
+
+	 box-shadow:  -6px 6px 0 0 #c6ee22;
+	
+}
+
+.card-custom{
+	
+	
+	background-color: #033f47;
+	border-radius:10px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+
+
+.card-custom p{
+	
+	color:teal;
+}
+
+.card-custom a{
+	
+	color: #fff;
+	text-decoration: none;
+	position: relative;
+	cursor: pointer;
+	transition: 0.5;
+}
+
+.card-custom a::after{
+	
+	    
+	content: "";
+	position: absolute;
+	width:0;
+	height: 3px;
+	background-color: #c6ee22;
+	left: 0;
+	top:20px;
+	transition:all 0.5s;
+}
+
+.card-custom .card-custom-image{
+	
+	overflow: hidden;
+}
+
+.card-custom .card-custom-image img{
+	
+	transition:all 0.4s ease;
+}
+.card-custom .card-custom-image img:hover{
+	
+	transform: scale(1.5)
+}
+
+.card-custom a:hover::after{
+	
+	width: 100%;
+}
+
+.card-custom a:hover{
+	
+	color: #c6ee22 !important;
+}
+
+#about .card{
+	
+	cursor: pointer;
+	background-color: #033f47;
+}
+
+#reviews .card{
+	
+	background-color: #033f47;
+	cursor: pointer;
+}
+
+#blog .card{
+	
+	background-color: #033f47;
+	cursor: pointer;
+}
+
+
+#blog  a{
+	
+	color: #fff;
+	text-decoration: none;
+	position: relative;
+	transition: 0.5;
+}
+
+
+#blog a::after{
+    
+	content: "";
+	position: absolute;
+	width:0;
+	height: 3px;
+	background-color: #c6ee22;
+	left: 0;
+	top:20px;
+	transition:all 0.5s;
+}
+#blog a:hover{
+	color: #c6ee22;
+}
+
+#blog  a:hover::after{
+	
+	width: 100%;
+}
+
+.img-zoom {
+	
+	overflow: hidden;
+}
+
+.img-zoom img{
+	
+	transition: all 0.4s ease;
+}
+
+.img-zoom img:hover{
+	
+	transform: scale(1.5);
+}
+
+input, textarea{
+
+
+	background-color: #033f47 !important;
+	border:none !important;
+	outline: none !important;
+	border-radius:5px;
+}
+
+textarea{
+	
+	resize:none;
+}
+
+input:hover, textarea:hover{
+	
+	border: 3px solid #c6ee22 !important;
+	outline: none !important;
+}
+
+
+
+
+
+:root{
+	
+	--base:#111
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:992px){
+	
+	.navbar{
+		
+	    height: 100vh;
+		width: 240px;
+		background: rgb(16,36,0);
+        background: rgb(15,120,50);
+        background: linear-gradient(90deg, rgba(15,120,50,1) 47%, rgba(80,193,38,1) 100%);
+		background-size:cover;
+		position:fixed; 
+		
+	}
+	
+	
+	
+	.r-img{
+		
+		border:6px solid #c6ee22;
+	}
+	
+	.home-section{
+		
+		padding-left: 270px;
+	}
+	
+}
